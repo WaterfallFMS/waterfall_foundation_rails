@@ -1,0 +1,22 @@
+.row
+  .large-12.columns
+
+    .row
+      .large-12.columns
+        = render 'waterfall_foundation_rails/nav'
+
+    .row
+      -# sidebar
+      .large-4.small-12.columns
+        = render 'waterfall_foundation_rails/side_bar'
+
+      -# main content
+      .large-8.columns
+        = render 'waterfall_foundation_rails/flash'
+        = yield
+
+    %footer.row
+      .large-12.columns
+        = render 'waterfall_foundation_rails/footer'
+
+= render 'waterfall_foundation_rails/javascript'

@@ -1,0 +1,13 @@
+.flash-panel-alert {
+  @include panel(
+    $bg:     #FFC4C4,
+    $adjust: true
+  );
+}
+
+.flash-panel-notice {
+  @include panel(
+    $bg:     #C4CFFF,
+    $adjust: true
+  );
+}
