@@ -12,3 +12,6 @@ gemspec
 
 # To use debugger
 # gem 'debugger'
+
+# incase we need to override behavior
+#gem 'jquery_autocomplete_rails', path: '/Users/jkamenik/github/jquery_autocomplete_rails'
