@@ -1,4 +1,4 @@
-require "waterfall_foundation_rails/engine"
+require "waterfall_foundation_rails/rails/engine"
 
 module WaterfallFoundationRails
 end

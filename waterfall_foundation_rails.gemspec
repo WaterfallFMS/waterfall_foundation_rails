@@ -21,5 +21,4 @@ Gem::Specification.new do |s|
   s.add_dependency 'jquery_autocomplete_rails'
   s.add_dependency 'foundation-rails', '~> 5.0.2'
   s.add_dependency 'haml-rails'
-  s.add_dependency 'chosen-rails'
 end
